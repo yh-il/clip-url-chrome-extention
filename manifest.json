@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "TITLE & URL",
+    "description": "webページタイトルとURLを表示します。",
+    "version": "1.0",
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "permissions": [
+        "contextMenus",
+        "tabs",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "background": {
+        "scripts": ["hoge.js"]
+    }
+}
